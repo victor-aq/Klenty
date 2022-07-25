@@ -1,0 +1,67 @@
+.card{
+      height:200px;
+    
+     
+
+    border: 1px solid #dbdbdb;
+ 
+    background-color: #FFFFFF;
+    margin-top: 100px; 
+    
+    
+    
+
+}
+
+
+
+.f1{
+    font-size: medium;
+    margin-left: 230px;
+    
+   
+    
+}
+
+
+
+
+img{
+    height: 100px;
+    width: 100px;
+}
+.db{
+    height: 50px;
+    width: 50px;
+    margin-left: 180px;
+    margin-top: 2px;
+    
+    
+}
+
+.locale{
+    color: #0089FF;
+    font-size: medium;
+    margin-left: 230px;
+}
+
+.f2{
+    font-size: small;
+    margin-left: 230px;
+  
+}
+.img_1{
+    
+        position:relative;
+        right: 200px;
+        left: 70px;
+        bottom: 170px;
+        
+    
+    
+}
+
+.image{
+    height:150px ;
+    width:180px ;
+}

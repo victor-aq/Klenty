@@ -1,0 +1,158 @@
+
+
+
+.logo{
+    height: 50px;
+    
+    margin-right: 20px;
+
+}
+.txt{
+    margin-right: 25px;
+    font-weight: 550;
+    color: #0D144A;
+    padding-top: 10px;
+
+}
+
+.nav_na{
+    text-decoration: none;
+    padding-left: 30px;
+    display: flex;
+    padding-top: 18px;
+    
+    
+
+   
+}
+.nav_btns{
+  
+    padding-top: 18px;
+    
+}
+.demo_btn{
+    margin-right: 10px;
+    height:40px;
+    width: 190px;
+    border-radius: 5px ;
+    border: 2px solid #504EE4;
+    color:#504EE4;
+    background-color:white;
+    font-size:  bold;
+    font-weight: 750;
+   
+
+
+ 
+}
+.free_btn{
+    height:40px;
+    width: 190px;
+    border-radius: 5px;
+   background-color:#504EE4;
+   color: #EDEDED;
+   border: 2px solid #504EE4;
+   font-size:  bold;
+   font-weight: 750;
+   
+  
+
+}
+.nav__btn{
+  
+    
+    border: none;
+    outline: none;
+    
+    visibility:hidden;
+   
+}
+@media only screen and (max-width: 1024px){
+    .Nav_bar .nav_btns .nav_btn{
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+@media(max-width:995px){
+    .btn{
+        font-size: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 900px){
+    .nav_na{
+        display: none;
+    }
+    .nav_btns{
+        display: none;
+    }
+}
+@media only screen and (max-width: 780px){
+    .nav_na{
+        display: none;
+    }
+    .nav_btns{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 650px){
+     .nav_na{
+        display: none;
+    }
+    .nav_btns{
+        display: none;
+    }
+}
+
+
+
+
+
+
+.btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.na{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+.image{
+    width:8rem;
+    height: 3rem;
+   padding-right: 30px;
+}
+
+@media(max-width:768px){
+    
+    .image {
+        height: 20px;
+    }
+    .list{
+        display: none;
+    }
+    .btns{
+        display: none;
+    }
+}
